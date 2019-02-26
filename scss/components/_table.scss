@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1.5rem 10rem 1.5rem 1.5rem;
+  text-align: left;
+}
+
+.tr {
+  margin-bottom: 2rem;
+
+  &:hover {
+    background-color: rgb(240, 254, 255);
+  }
+}
+
+.warn {
+  background-color: rgb(255, 233, 185);
+
+  &:hover {
+    background-color: rgb(253, 218, 142);
+  }
+}

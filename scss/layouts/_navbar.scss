@@ -1,13 +1,13 @@
 .navbar {
   height: 8rem;
   width: 100%;
-  border: 2px solid coral;
+  border-bottom: 1px solid $border-color;
   display: flex;
   justify-content: space-between;
 
   &-logo {
-    height: 5rem;
-    width: 5rem;
+    height: auto;
+    width: 10rem;
     padding: 1.5rem;
   }
 
