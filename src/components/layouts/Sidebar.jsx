@@ -5,7 +5,7 @@ export const Sidebar = () => {
     <aside className="sidebar">
       <nav className="sidebar-menu">
         <ul>
-          <li>Side bar menu</li>
+          <li />
         </ul>
       </nav>
     </aside>
