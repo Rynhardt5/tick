@@ -1,0 +1,23 @@
+.navbar {
+  height: 8rem;
+  width: 100%;
+  border: 2px solid coral;
+  display: flex;
+  justify-content: space-between;
+
+  &-logo {
+    height: 5rem;
+    width: 5rem;
+    padding: 1.5rem;
+  }
+
+  &-menu {
+    line-height: 8rem;
+
+    &-items {
+      list-style: none;
+      display: inline-block;
+      margin: 0 2rem;
+    }
+  }
+}
